@@ -1,0 +1,64 @@
+/* ENCABEZADO */
+
+/* Estilo para el encabezado */
+header {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,113,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+/* Estilos para el título principal */
+.page-title {
+    text-align: center;
+    margin-top: 3rem; /* Margen superior */
+    margin-bottom: rem; /* Margen inferior */
+    color: white;
+}
+
+/* BODY */
+/* Estilo para las tarjetas */
+.card {
+    width: 18rem; /* Tamaño fijo para las tarjetas */
+    margin: 0 auto; /* Centrando las tarjetas dentro de su contenedor de columna */
+}
+
+/* Estilo para las imágenes */
+.card-img-top {
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; /* Ajusta la imagen para cubrir el área designada sin deformarse */
+}
+
+/* Estilos para el botón "Añadir videojuego" */
+.add-game-btn {
+    margin-bottom: 4rem; /* Margen inferior */
+}
+
+/* FORMULARIOS */
+/* Estilos para el título de la tarjeta */
+.título {
+    font-weight: lighter; /* Texto más ligero */
+    font-weight: bold;
+}
+
+.form-control {
+    margin-bottom: 1.5rem; 
+}
+
+
+/*BOTONES*/
+.btn-primary {
+    margin-right: 1rem; /* Margen derecho */
+}
+
+.btn-secondary {
+    margin-left: 1rem; /* Margen izquierdo */
+}
+
+/* Boton "Editar" y "Eliminar" */
+.btn-edit {
+    background-color: #ffc107; 
+}
+
+/* Boton "Eliminar" */
+.btn-delete {
+    background-color: #dc3545; 
+}
